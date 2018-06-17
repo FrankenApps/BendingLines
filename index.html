@@ -60,7 +60,7 @@
           <div class="container">
             <h1 class="display-3"><em>Bending Line</em> animations.</h1>
             <p>This is built in order to show how a modeled joist would bend under the incluence of a certain force. There are several different examples for different bearings.</p>
-            <p>The goal is to play around a bit and develop an intuition for what is going to happen with the joist. I also show the equation for the bending line above each example. I have calculated most myself, so it is pretty likely there are some mistakes.</p>
+            <p>The goal is to play around a bit and develop an intuition for what is going to happen with the joist. I also show the equation for the bending line above each example. I have calculated most myself, so it is pretty likely there are some mistakes. &#x1F605;</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">How to use &raquo;</a></p>
           </div>
         </div>
@@ -78,7 +78,7 @@
                           $$w(x)=\frac{F}{6\mathrm{EI}_y}\left(3ax^2-x^3\right), \quad 0 \le x \le a \quad \mathrm{\mathbf{and}} \quad
                           w(x)=\frac{F}{6\mathrm{EI}_y}\left(3a^2x-a^3\right), \quad a \le x \le l$$
                         </div>
-                        <div class="col-lg-8 svgContainer" id="joint1SVG">
+                        <div class="col-lg-8 svgContainer" id="joist1SVG">
 
                         </div>
                         <div class="col-lg-4 menu" id="menu1" style="margin-bottom: 15px">
@@ -89,7 +89,29 @@
                   </div>
             </div>
           </section>
-          </div>
+          <section id="example2" style="margin-top: 2em">
+            <div class="col-lg-12">
+                <div class="card">
+                    <h5 class="card-header">Joist on two bearings <img src="https://openclipart.org/image/800px/svg_to_png/293844/under-construction_geek_man_01.png" height="50" width="50" style="display: inline"></h5>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          $$w(x)=\frac{F(l-a)}{6\mathrm{EI}_y l}\left(l^2x-(l-a)^2x-x^3\right), \ 0 \le x \le a \quad \mathrm{\mathbf{and}} \quad
+                          w(x)=\frac{F(l-a)}{6\mathrm{EI}_y l}\left(\frac{l}{l-a}(x-a)^3+\left(l^2-(l-a)^2\right)x-x^3\right), \ a \le x \le \frac{l}{2}$$
+                        </div>
+                        <div class="col-lg-8 svgContainer" id="joist2SVG">
+
+                        </div>
+                        <div class="col-lg-4 menu" id="menu2" style="margin-bottom: 15px">
+                            
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </section>        
+          
+        </div> <!-- /row  -->
   
           <hr>
   
